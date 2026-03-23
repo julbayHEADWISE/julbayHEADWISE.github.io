@@ -136,26 +136,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#background" id="toc-background" class="nav-link active" data-scroll-target="#background">Background</a></li>
-  <li><a href="#aim" id="toc-aim" class="nav-link" data-scroll-target="#aim">Aim</a></li>
-  <li><a href="#methods" id="toc-methods" class="nav-link" data-scroll-target="#methods">Methods</a></li>
-  <li><a href="#ethics" id="toc-ethics" class="nav-link" data-scroll-target="#ethics">Ethics</a></li>
-  <li><a href="#timeline" id="toc-timeline" class="nav-link" data-scroll-target="#timeline">Timeline</a></li>
-  <li><a href="#funding" id="toc-funding" class="nav-link" data-scroll-target="#funding">Funding</a></li>
-  </ul>
-</nav>
-</nav>
+  
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content column-page" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -164,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-right">
+<div class="quarto-title-meta column-page">
 
     
   
@@ -176,42 +163,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="background" class="level4">
-<h4 class="anchored" data-anchor-id="background">Background</h4>
-<p>Minor head trauma accounts for a substantial proportion of emergency department visits globally. Approximately half of these patients undergo CT scanning to rule out intracranial haemorrhage requiring intervention. However, the vast majority of scans are without clinically relevant findings, and only 0-1% result in neurosurgical intervention. We aim to evaluate a new management algorithm developed by the Danish Choosing Wisely organization against the 2013 Scandinavian Neurotrauma Committee guidelines.</p>
-<p>We hypothesize that the Choosing Wisely algorithm will reduce CT use by of 25-30% without compromising patient safety.</p>
-</section>
-<section id="aim" class="level4">
-<h4 class="anchored" data-anchor-id="aim">Aim</h4>
-<p>HEADWISE aims to compare a new <em>Choosing Wisely</em> recommendation with the current guidelines from the Scandinavian Neurotrauma Committee (SNC). The new recommendation is expected to reduce CT utilization by 25% without compromising patient safety</p>
-</section>
-<section id="methods" class="level4 methods-section">
-<h4 class="anchored" data-anchor-id="methods">Methods</h4>
-<p>A stepped-wedge multicenter cluster-randomized non-inferiority trial including 10 Danish emergency departments, covering all five Danish regions.</p>
-<p>Each department will serve as a cluster, initially following the Scandinavian guidelines before sequentially transitioning to the Choosing Wisely guidelines by random selection. Eligible patients are adults (&gt;18 years) presenting within 24 hours of head trauma with a Glasgow Coma Scale score of 14-15 at admission.</p>
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="images/stepped_wedge.png" class="img-fluid quarto-figure quarto-figure-left figure-img" width="660"></p>
-</figure>
-</div>
-<p>The primary outcome is the proportion of patients undergoing neurosurgery. Secondary outcomes include mortality, length of hospital stay, CT scan rates, and economic impact. Data will be obtained from national healthcare registers and only data part of routine clinical documentation will be needed. Approximately 7000 patients will be included. For continuous outcomes, a linear mixed-effects model will be used. For binary outcomes, a logistic mixed-effects model will be used. Time-to-event analyses will assess mortality and other temporal endpoints.</p>
-</section>
-<section id="ethics" class="level4">
-<h4 class="anchored" data-anchor-id="ethics">Ethics</h4>
-<p>The study has been approved by the Danish Research Ethics Committees (case no.: 2403883, document no.: 3024022). A simplified informed consent model will be used: Patients will receive printed study information and may opt out of data use without affecting clinical management. Results will be disseminated through peer-reviewed publications and presentations at international scientific conferences.</p>
-</section>
-<section id="timeline" class="level4">
-<h4 class="anchored" data-anchor-id="timeline">Timeline</h4>
-<p>Ongoing retrospective data collection and analysis to determine power. Study start 2026.</p>
-</section>
-<section id="funding" class="level4">
-<h4 class="anchored" data-anchor-id="funding">Funding</h4>
-<div style="display:flex; align-items:center; flex-wrap:nowrap; margin-top:20px;">
-<p><img src="images/frieforskningsfond.png" style="width:220px; height:auto; margin-right:30px;"> <img src="images/auh_logo.png" style="width:250px; height:auto; margin-right:30px;"></p>
-</div>
+<!--
+#### Background
+
+Minor head trauma accounts for a substantial proportion of emergency department visits globally. Approximately half of these patients undergo CT scanning to rule out intracranial haemorrhage requiring intervention. However, the vast majority of scans are without clinically relevant findings, and only 0-1% result in neurosurgical intervention. We aim to evaluate a new management algorithm developed by the Danish Choosing Wisely organization against the 2013 Scandinavian Neurotrauma Committee guidelines.
+
+We hypothesize that the Choosing Wisely algorithm will reduce CT use by of 25-30% without compromising patient safety.
+
+#### Aim
+
+HEADWISE aims to compare a new *Choosing Wisely* recommendation with the current guidelines from the Scandinavian Neurotrauma Committee (SNC). The new recommendation is expected to reduce CT utilization by 25% without compromising patient safety
+
+::: methods-section
+#### Methods
+
+A stepped-wedge multicenter cluster-randomized non-inferiority trial including 10 Danish emergency departments, covering all five Danish regions.
+
+Each department will serve as a cluster, initially following the Scandinavian guidelines before sequentially transitioning to the Choosing Wisely guidelines by random selection. Eligible patients are adults (\>18 years) presenting within 24 hours of head trauma with a Glasgow Coma Scale score of 14-15 at admission.
+
+![](images/stepped_wedge.png){fig-align="left" width="660"}
+
+The primary outcome is the proportion of patients undergoing neurosurgery. Secondary outcomes include mortality, length of hospital stay, CT scan rates, and economic impact. Data will be obtained from national healthcare registers and only data part of routine clinical documentation will be needed. Approximately 7000 patients will be included. For continuous outcomes, a linear mixed-effects model will be used. For binary outcomes, a logistic mixed-effects model will be used. Time-to-event analyses will assess mortality and other temporal endpoints.
+:::
+
+#### Ethics
+
+The study has been approved by the Danish Research Ethics Committees (case no.: 2403883, document no.: 3024022). A simplified informed consent model will be used: Patients will receive printed study information and may opt out of data use without affecting clinical management. Results will be disseminated through peer-reviewed publications and presentations at international scientific conferences.
+
+#### Timeline
+
+Ongoing retrospective data collection and analysis to determine power. Study start 2026.
+
+#### Funding
+
+::: {style="display:flex; align-items:center; flex-wrap:nowrap; margin-top:20px;"}
+<img src="images/frieforskningsfond.png" style="width:220px; height:auto; margin-right:30px;"/> <img src="images/auh_logo.png" style="width:250px; height:auto; margin-right:30px;"/>
+:::
+-->
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
