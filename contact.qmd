@@ -1,0 +1,14 @@
+---
+title: "Contact"
+page-layout: full
+format: html
+---
+
+![](images/julie.png){.img-rounded}
+
+Julie Bjørn Bay\
+Medical Doctor, PhD student\
+[julbay@rm.dk](mailto:julbay@rm.dk)\
+[HEADWISE@clin.au.dk](mailto:headwise@clin.au.dk)
+
+![](images/aura_logo.png){width="300"}

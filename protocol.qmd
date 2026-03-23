@@ -1,0 +1,57 @@
+---
+title: "Protocol"
+page-layout: full
+format: html
+---
+
+:::: band-left
+::: {style="background-color:#f6f6f6; padding:0px 10px; width:100%; max-width:none; margin:0; text-align:left; box-sizing:border-box;"}
+<!-- ===== STUDY OVERVIEW TABLE ===== -->
+
+<h4>Study Overview</h4>
+
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Item                | Details                                                                                                                                    |
++:====================+:===========================================================================================================================================+
+| Study name          | HEADWISE - Head Trauma Evaluation Algorithm for Deploying Warranted Imaging Safely and Efficiently                                         |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Objective           | Evaluate the diagnostic performance and safety profile of a new Choosing Wisely algorithm for MHT management, aiming to reduce CT overuse. |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Study Sites         | Aalborg, Aarhus, Esbjerg, Kolding, Aabenraa, Odense, Slagelse, Herlev, Bispebjerg, Hvidovre                                                |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Study Period        | 01.XX.202X – 01.XX.202X                                                                                                                    |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Primary Endpoint    | Proportion undergoing neurosurgery within 10 days of trauma                                                                                |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Secondary Endpoints | All-cause and cause-specific mortality\                                                                                                    |
+|                     | Readmission-free survival\                                                                                                                 |
+|                     | Time from trauma to neurosurgery\                                                                                                          |
+|                     | Rate of intracranial haemorrhage\                                                                                                          |
+|                     | Duration of hospitalization and ICU admission if applicable\                                                                               |
+|                     | Number of CT scans, possible neurology admission, and neurorehabilitation\                                                                 |
+|                     | Economic consequences including elective CTs and sickness benefit                                                                          |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+| Follow-up           | Three months                                                                                                                               |
++---------------------+--------------------------------------------------------------------------------------------------------------------------------------------+
+
+<!-- ===== ROLES & RESPONSIBILITIES TABLE ===== -->
+
+<h4>Roles and Responsibilities</h4>
+
++------------------------+------------------------------+------------------------------------------------------------------------------+
+| Role                   | Person                       | Responsibilities                                                             |
++:=======================+:=============================+:=============================================================================+
+| Principal Investigator | Rozh Al-Mashhadi             | Overall study oversight, data quality                                        |
++------------------------+------------------------------+------------------------------------------------------------------------------+
+| Local Investigator     | See [Team](team.html)        | Daily workflow management, staff training                                    |
++------------------------+------------------------------+------------------------------------------------------------------------------+
+| Local Project Manager  | See [Team](team.html)        | Aid the local site investigator in quality assurance                         |
++------------------------+------------------------------+------------------------------------------------------------------------------+
+| Data Collector         | Julie Bjørn Bay              | Data extraction from registers                                               |
++------------------------+------------------------------+------------------------------------------------------------------------------+
+| Clinician              | Any doctor at admission site | Patient screening, patient information, guideline adherence, code assignment |
++------------------------+------------------------------+------------------------------------------------------------------------------+
+| Statistician           |                              | Data analysis plan                                                           |
++------------------------+------------------------------+------------------------------------------------------------------------------+
+:::
+::::

@@ -1,0 +1,10 @@
+---
+title: "Scandinavian guidelines"
+page-layout: full
+format: html
+---
+
+![](images/scandinavian.png){width=1000 .zoom-img}
+<br>
+
+<https://pubmed.ncbi.nlm.nih.gov/23432764/>

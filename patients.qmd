@@ -1,0 +1,7 @@
+---
+title: "Patient information (in Danish)"
+page-layout: full
+format: html
+---
+
+![](images/patientinformation.png){width="713" .zoom-img}

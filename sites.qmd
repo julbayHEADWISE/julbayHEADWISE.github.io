@@ -1,0 +1,48 @@
+---
+title: "Practical protocol"
+format: html
+---
+
+| Study Overview |   |
+|-------------------------|-----------------------------------------------|
+| Study name | HEADWISE - Head Trauma Evaluation Algorithm for Deploying Warranted Imaging Safely and Efficiently |
+| Objective | Evaluate the diagnostic performance and safety profile of a new Choosing Wisely algorithm for MHT management, with the goal of reducing CT overuse in emergency settings. |
+| Study Sites | Aalborg University Hospital, Aarhus University Hospital, Esbjerg Hospital, Kolding Hospital, Hospital Sønderjylland, Odense University Hospital, Slagelse Hospital, Herlev Hospital, Bispebjerg and Frederiksberg Hospital, and Amager and Hvidovre Hospital |
+| Study Period | 01.XX.202X - 01.XX.202X |
+| Primary Endpoint | Proportion undergoing neurosurgery |
+| Secondary Endpoints | Mortality, survival without readmission, proportion receiving CT of the brain, economic consequences, and related measures. |
+
+| Roles and Responsibilities |   |   |
+|-------------------------|------------------------|------------------------|
+| Principal Investigator | Rozh Al-Mashhadi | Overall study oversight, data quality |
+| Site Coordinator |  | Daily workflow management, staff training |
+| Data Collector | Julie Bjørn Bay | Data extraction from registers |
+| Clinician |  | Patient screening, guideline adherence |
+| Statistician |  | Data analysis plan |
+|  |  |  |
+
+**Study Workflow**
+
+**Step 1 – Patient Screening**
+
+-   Identify adult patients presenting with **mild head trauma (GCS 14–15)**
+
+-   Apply **inclusion/exclusion criteria**
+
+-   Hand eligible patients Patient Information
+
+**Step 2 – Guideline Assignment**
+
+-   Check which guideline is active at your site **based on stepped-wedge schedule**
+
+-   Use flowchart to decide whether a CT scan is indicated
+
+**Step 3 – Data Collection**
+
+-   If patient is eligible assign the diagnosis code **DS098C - Let hovedtraume (GCS 14-15)**
+
+-   If patient is not eligible use another diagnosis code
+
+-   If patient want to opt out of data analysis, the patient should register this in REDCap or send us an email (see patient information)
+
+![](images/stepped_wedge.png)

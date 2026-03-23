@@ -1,0 +1,59 @@
+---
+title: ""
+page-layout: full
+format: html
+---
+
+<div style="width:100%; text-align:center; margin-top:20px; margin-bottom:40px; display:flex; flex-direction:column; align-items:center;">
+
+<h1 style="width:100%; text-align:center; font-size:6rem; font-weight:700; line-height:1.1; margin:0 auto 0 auto;">
+HEADWISE
+</h1>
+
+<p style="font-size:1.9rem; max-width:900px; margin:0 auto 0 auto; text-align:center;">
+Head Trauma Evaluation Algorithm for Deploying\
+Warranted Imaging Safely and Efficient
+</p>
+
+<br>
+<p style="font-size:1.6rem; max-width:900px; margin:0 auto 0 auto; text-align:center;">
+A multicenter cluster-randomized trial
+</p>
+
+</div>
+
+::: band-alt
+
+<div style="font-size:1.2rem; line-height:2; text-align:center; max-width:900px; margin:auto;">
+
+Minor head trauma is common in emergency departments
+
+Approximately half of patients undergo CT scanning
+
+The vast majority of scans are without relevant findings
+
+Only 0–1% result in treatment
+
+<br>
+
+We hypothesize
+
+that choosing wisely can safely reduce CT use by 25–30%
+
+</div>
+:::
+
+<br>
+
+:::: band-alt
+
+<div style="display:flex; justify-content:center; align-items:center; flex-wrap:nowrap; margin-top:20px;">
+
+  <img src="images/auh_logo.png" style="width:190px; height:auto; margin-right:30px;" />
+  <img src="images/rmlogo.png" style="width:125px; height:auto; margin-right:30px;" />
+  <img src="images/aulogo.png" style="width:260px; height:auto; margin-right:10px;" />
+  <img src="images/aura_logo.png" style="width:240px; height:auto;" />
+
+</div>
+
+::::

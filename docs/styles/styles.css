@@ -1,0 +1,149 @@
+#quarto-content {
+  position: relative;
+}
+
+#quarto-content::after {
+  content: "";
+  position: fixed;
+  top: 15%;
+  right: 5%;
+  width: 45%;
+  height: 100%;
+#background-image: url("../images/brainfigure.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 60%;
+  opacity: 0.2;   /* subtle */
+  pointer-events: none;
+  z-index: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 600;
+}
+
+#quarto-content > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* Team grid container */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(5, grid-auto-columns); /* 5 fixed-width columns */
+  gap: 10px; /* spacing between images */
+  justify-content: left; /* center the whole grid */
+}
+
+/* Images: square and uniform */
+.team-grid img {
+  width: 200px;      /* exact width */
+  height: 200px;     /* exact height */
+  object-fit: cover; /* crop if necessary to fill square */
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;    /* center within grid cell */
+}
+
+/* Captions: centered under each image */
+.team-grid figcaption {
+  text-align: center;
+  max-width: 200px;  /* match image width */
+  margin: 5px auto 0 auto; /* small space under image */
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.logo-row {
+  display: flex !important;           /* force horizontal row */
+  justify-content: left !important; /* center horizontally */
+  align-items: flex-end !important;   /* bottom-align images */
+  gap: 30px;                           /* spacing between logos */
+  flex-wrap: wrap;                     /* responsive on small screens */
+}
+
+/* Make Quarto figures inside this container inline-flex */
+.logo-row figure {
+  display: inline-flex !important;
+  margin: 0 !important;               /* remove extra spacing */
+}
+
+.logo-row img {
+  height: 90px;                        /* uniform height */
+  width: auto;                         /* maintain proportions */
+  display: block;
+}
+
+.zoom-img {
+  transition: transform 0.3s ease;
+  transform-origin: top center;
+}
+
+.zoom-img:hover {
+  transform: scale(1.5);
+}
+
+.main-container {
+  max-width: 1200px;  /* default is ~960px for Flatly */
+  margin: 0 auto;
+}
+
+.main-container .col {
+  width 100%
+  }
+
+.band-left {
+  background-color: #f6f6f6;
+  padding: 20px 20px;
+  text-align: left;
+}
+
+.band-left p {
+  max-width: 900px;
+  margin: auto;
+}
+
+.band-left table th,
+.band-left table td {
+  vertical-align: top;
+}
+
+.band-alt {
+  background-color: #f6f6f6;
+  padding: 90px 20px;
+  text-align: center;
+}
+
+.band-alt p {
+  max-width: 900px;
+  margin: auto;
+}
+
+/* COLLABORATOR LOGOS */
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.logos img {
+  height: 60px;
+  width: auto;
+}
+
+.img-rounded {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+  display: block;
+}

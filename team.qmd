@@ -1,0 +1,79 @@
+---
+title: "Team"
+page-layout: full
+format: html
+---
+
+**An official collaboration between**
+
+![](images/trelogoer.png)
+
+<br>
+
+**Steering Committee**
+
+::: {.team-grid layout-ncol="5"}
+![Susanne Axelsen, Chairperson of the Danish Choosing Wisely organisation](images/susanneaxelsen.png)
+
+![Henrik Ømark Petersen, Chairperson of the Danish Society for Emergency Medicine](images/henrikomark.png)
+
+![Ann Kathrine Ryberg Sindby, Chairperson of the Danish Neurotrauma Committee](images/annkathrine.png)
+
+![Michael Braüner Schmidt, Chief Medical Officer, Aarhus University Hospital](images/michaelbraunerschmidt.png)
+
+![](images/blank.png)
+
+![Jørgen Frøkiær, Head of the Department of Clinical Medicine, Aarhus University](images/jørgenfrøkiær.png)
+
+![Kasper Karmark Iversen, Professor, Dept. of Internal Medicine, Herlev Hospital](images/kasperkarmark.png)
+
+![Ole Graumann, Head of Research, Dept. of Radiology, Aarhus University Hospital](images/ole.png)
+
+![Rozh Al-Mashhadi, Principal Investigator, Dept. of Radiology, Aarhus University Hospital](images/rozh.png)
+
+![](images/blank.png)
+:::
+
+**Local Investigators**
+
+::: {.team-grid layout-ncol="5"}
+![Nikolaj Raaber, Associate Professor, Emergency Department, Aarhus University Hospital](images/nikolajraaber.png)
+
+![Kasper Karmark Iversen, Professor, Department of Internal Medicine, Herlev Hospital](images/kasperkarmark.png)
+
+![Hanne Nygaard, Head of Research, Emergency Department, Bispebjerg and Frederiksberg Hospital](images/hanne.png)
+
+![Michael Dan Arvig, Associate Professor, Emergency Department, Slagelse Hospital](images/michael.png)
+
+![Ove Andersen, Head of Clinical Research, Amager and Hvidovre Hospital](images/ove.png)
+
+![Anders Jody, Chief Consultant, Department of Orthopedic Surgery, Kolding Hospital](images/andersjody.png)
+
+![Joakim Jensen, Consultant, Department of Orthopedic Surgery, Odense University Hospital](images/joakim.png)
+
+![Christian Backer Mogensen, Professor, Emergency Department, Hospital Sønderjylland](images/christianbacker.png)
+
+![Peter Biesenbach, Head of Research, Emergency Department, Esbjerg Hospital](images/peter.png)
+
+![Anne Lund Krarup, Associate Professor, Emergency Department, Aalborg University Hospital](images/joakim.png)
+:::
+
+**Local Project Managers**
+
+::: {.team-grid layout-ncol="5"}
+![](images/blank.png)
+:::
+
+**Central Organizing Committee**
+
+::: {.team-grid layout-ncol="5"}
+![Julie Bjørn Bay, MD, PhD student, Aarhus University Radiology Research Unit (AURA), Aarhus University](images/julie.png)
+
+![Stig Holm Ovesen, PhD, Aarhus University Radiology Research Unit (AURA), Aarhus University](images/stig.png)
+
+![](images/blank.png)
+
+![](images/blank.png)
+
+![](images/blank.png)
+:::

@@ -1,0 +1,11 @@
+---
+title: "Choosing Wisely guidelines"
+page-layout: full
+format: html
+---
+
+![](images/choosingwisely.png){width=1000 .zoom-img}
+
+<br>
+
+<https://vaelgklogt.dk/anbefalinger/ct-scanning-ved-lette-hovedtraumer>

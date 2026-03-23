@@ -1,0 +1,22 @@
+---
+title: "Frequently Asked Questions"
+page-layout: full
+---
+
+<br>
+
+**Should the diagnostic code DS098C Let hovedtraume (GCS 14–15) be used according to the definition in the *Scandinavian Neurotrauma Committee (SNC) guidelines*?**
+
+No. The code should be applied to all patients with head trauma and a Glasgow Coma Scale (GCS) score of 14–15 at the time of admission, including those who would be classified as “minimal” according to the SNC guidelines.
+
+<br>
+
+**Which patients belong in the category “øget blødningstendens”?**
+
+"Øget blødningstendens" refers to patients with alcohol abuse, liver disease, or bleeding disorders - not those receiving anticoagulant (AK) therapy, which is listed as a separate risk factor.
+
+<br>
+
+**What if we cannot measure S100B?**
+
+All participating emergency departments can, as a general rule, measure S100B. If S100B is temporarily unavailable or more than 6 hours have passed since the injury, a CT scan should be performed (and the patient discharged if normal). Observation is only required if the CT scan is abnormal.

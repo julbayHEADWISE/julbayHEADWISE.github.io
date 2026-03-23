@@ -1,0 +1,32 @@
+{
+    "id": "C0F3F4DD",
+    "path": "~/Library/CloudStorage/OneDrive-Aarhusuniversitet/PhD/HEADWISE/Hjemmeside/headwise website/deploy.sh",
+    "project_path": "deploy.sh",
+    "type": "sh",
+    "hash": "2891202190",
+    "contents": "",
+    "dirty": false,
+    "created": 1774261455667.0,
+    "source_on_save": false,
+    "relative_order": 2,
+    "properties": {
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "tempName": "Untitled1",
+        "source_window_id": "",
+        "Source": "Source",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "cursorPosition": "12,2",
+        "scrollLine": "0",
+        "rmdVisualModeLocation": "2:0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1774267426,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1774267426874,
+    "read_only": false,
+    "read_only_alternatives": []
+}

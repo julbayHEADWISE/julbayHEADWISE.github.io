@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "images/"
+
+website:
+  title: "HEADWISE"
+  navbar:
+    left:
+      - text: About
+        href: about.qmd
+      - text: Protocol
+        href: protocol.qmd
+      - text: Trial Procedures
+        href: trialprocedures.qmd
+      - text: Scandinavian Guidelines
+        href: scandinavian.qmd
+      - text: Choosing Wisely Guidelines
+        href: choosingwisely.qmd
+      - text: Patient Information
+        href: patients.qmd
+      - text: FAQ
+        href: faq.qmd
+      - text: Team
+        href: team.qmd
+      - text: Contact
+        href: contact.qmd
+
+format:
+  html:
+    theme: flatly #Blå header bar
+    sidebar: true
+    css: styles/styles.css
+    google-fonts:
+    - family: Montserrat
+      weights: [400, 500, 600]
+    toc: true #gør at der ikke kommer en menu til højre, modsat hvis der stod true
+    toc-location: left
+    toc-depth: 4
+
+editor: visual
