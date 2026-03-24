@@ -28,13 +28,6 @@
     "text": "Study Overview\n\n\n\n\n\n\n\n\nItem\nDetails\n\n\n\n\nStudy name\nHEADWISE - Head Trauma Evaluation Algorithm for Deploying Warranted Imaging Safely and Efficiently\n\n\nObjective\nEvaluate the diagnostic performance and safety profile of a new Choosing Wisely algorithm for MHT management, aiming to reduce CT overuse.\n\n\nStudy Sites\nAalborg, Aarhus, Esbjerg, Kolding, Aabenraa, Odense, Slagelse, Herlev, Bispebjerg, Hvidovre\n\n\nStudy Period\n01.XX.202X – 01.XX.202X\n\n\nPrimary Endpoint\nProportion undergoing neurosurgery within 10 days of trauma\n\n\nSecondary Endpoints\nAll-cause and cause-specific mortality\nReadmission-free survival\nTime from trauma to neurosurgery\nRate of intracranial haemorrhage\nDuration of hospitalization and ICU admission if applicable\nNumber of CT scans, possible neurology admission, and neurorehabilitation\nEconomic consequences including elective CTs and sickness benefit\n\n\nFollow-up\nThree months"
   },
   {
-    "objectID": "deploy.html",
-    "href": "deploy.html",
-    "title": "Deploy Site",
-    "section": "",
-    "text": "# Render full site\nquarto render .\n\n# Only commit if there are changes\nif [ -n \"$(git status --porcelain)\" ]; then\n  git add -f docs\n  git commit -m \"Site update: $(date '+%Y-%m-%d %H:%M:%S')\"\n  git push\nelse\n  echo \"No changes to commit\"\nfi"
-  },
-  {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
