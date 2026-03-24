@@ -21,11 +21,11 @@
     "text": "An official collaboration between\n\n\nSteering Committee\n\n\n\n\n\n\nSusanne Axelsen, Chairperson of the Danish Choosing Wisely organisation\n\n\n\n\n\n\n\nHenrik Ømark Petersen, Chairperson of the Danish Society for Emergency Medicine\n\n\n\n\n\n\n\nAnn Kathrine Ryberg Sindby, Chairperson of the Danish Neurotrauma Committee\n\n\n\n\n\n\n\nMichael Braüner Schmidt, Chief Medical Officer, Aarhus University Hospital\n\n\n\n\n\n\n\n\n\n\n\n\nJørgen Frøkiær, Head of the Department of Clinical Medicine, Aarhus University\n\n\n\n\n\n\n\nKasper Karmark Iversen, Professor, Dept. of Internal Medicine, Herlev Hospital\n\n\n\n\n\n\n\nOle Graumann, Head of Research, Dept. of Radiology, Aarhus University Hospital\n\n\n\n\n\n\n\nRozh Al-Mashhadi, Principal Investigator, Dept. of Radiology, Aarhus University Hospital\n\n\n\n\n\n\n\n\n\nLocal Project Managers\n\n\n\n\n\n\n\nCentral Organizing Committee"
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
-    "title": "Contact",
+    "objectID": "protocol.html",
+    "href": "protocol.html",
+    "title": "Protocol",
     "section": "",
-    "text": "Julie Bjørn Bay\nMedical Doctor, PhD student\njulbay@rm.dk\nHEADWISE@clin.au.dk"
+    "text": "Study Overview\n\n\n\n\n\n\n\n\nItem\nDetails\n\n\n\n\nStudy name\nHEADWISE - Head Trauma Evaluation Algorithm for Deploying Warranted Imaging Safely and Efficiently\n\n\nObjective\nEvaluate the diagnostic performance and safety profile of a new Choosing Wisely algorithm for MHT management, aiming to reduce CT overuse.\n\n\nStudy Sites\nAalborg, Aarhus, Esbjerg, Kolding, Aabenraa, Odense, Slagelse, Herlev, Bispebjerg, Hvidovre\n\n\nStudy Period\n01.XX.202X – 01.XX.202X\n\n\nPrimary Endpoint\nProportion undergoing neurosurgery within 10 days of trauma\n\n\nSecondary Endpoints\nAll-cause and cause-specific mortality\nReadmission-free survival\nTime from trauma to neurosurgery\nRate of intracranial haemorrhage\nDuration of hospitalization and ICU admission if applicable\nNumber of CT scans, possible neurology admission, and neurorehabilitation\nEconomic consequences including elective CTs and sickness benefit\n\n\nFollow-up\nThree months\n\n\n\n\n\nRoles and Responsibilities\n\n\n\n\nRole\nPerson\nResponsibilities\n\n\n\n\nPrincipal Investigator\nRozh Al-Mashhadi\nOverall study oversight, data quality\n\n\nLocal Investigator\nSee Team\nDaily workflow management, staff training\n\n\nLocal Project Manager\nSee Team\nAid the local site investigator in quality assurance\n\n\nData Collector\nJulie Bjørn Bay\nData extraction from registers\n\n\nClinician\nAny doctor at admission site\nPatient screening, patient information, guideline adherence, code assignment\n\n\nStatistician\n\nData analysis plan"
   },
   {
     "objectID": "deploy.html",
@@ -35,18 +35,11 @@
     "text": "# Render full site\nquarto render .\n\n# Only commit if there are changes\nif [ -n \"$(git status --porcelain)\" ]; then\n  git add -f docs\n  git commit -m \"Site update: $(date '+%Y-%m-%d %H:%M:%S')\"\n  git push\nelse\n  echo \"No changes to commit\"\nfi"
   },
   {
-    "objectID": "protocol.html",
-    "href": "protocol.html",
-    "title": "Protocol",
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "Contact",
     "section": "",
-    "text": "Study Overview\n\n\n\n\n\n\n\n\nItem\nDetails\n\n\n\n\nStudy name\nHEADWISE - Head Trauma Evaluation Algorithm for Deploying Warranted Imaging Safely and Efficiently\n\n\nObjective\nEvaluate the diagnostic performance and safety profile of a new Choosing Wisely algorithm for MHT management, aiming to reduce CT overuse.\n\n\nStudy Sites\nAalborg, Aarhus, Esbjerg, Kolding, Aabenraa, Odense, Slagelse, Herlev, Bispebjerg, Hvidovre\n\n\nStudy Period\n01.XX.202X – 01.XX.202X\n\n\nPrimary Endpoint\nProportion undergoing neurosurgery within 10 days of trauma\n\n\nSecondary Endpoints\nAll-cause and cause-specific mortality\nReadmission-free survival\nTime from trauma to neurosurgery\nRate of intracranial haemorrhage\nDuration of hospitalization and ICU admission if applicable\nNumber of CT scans, possible neurology admission, and neurorehabilitation\nEconomic consequences including elective CTs and sickness benefit\n\n\nFollow-up\nThree months\n\n\n\n\n\nRoles and Responsibilities\n\n\n\n\nRole\nPerson\nResponsibilities\n\n\n\n\nPrincipal Investigator\nRozh Al-Mashhadi\nOverall study oversight, data quality\n\n\nLocal Investigator\nSee Team\nDaily workflow management, staff training\n\n\nLocal Project Manager\nSee Team\nAid the local site investigator in quality assurance\n\n\nData Collector\nJulie Bjørn Bay\nData extraction from registers\n\n\nClinician\nAny doctor at admission site\nPatient screening, patient information, guideline adherence, code assignment\n\n\nStatistician\n\nData analysis plan"
-  },
-  {
-    "objectID": "sites.html",
-    "href": "sites.html",
-    "title": "Practical protocol",
-    "section": "",
-    "text": "Study Overview\n\n\n\n\n\nStudy name\nHEADWISE - Head Trauma Evaluation Algorithm for Deploying Warranted Imaging Safely and Efficiently\n\n\nObjective\nEvaluate the diagnostic performance and safety profile of a new Choosing Wisely algorithm for MHT management, with the goal of reducing CT overuse in emergency settings.\n\n\nStudy Sites\nAalborg University Hospital, Aarhus University Hospital, Esbjerg Hospital, Kolding Hospital, Hospital Sønderjylland, Odense University Hospital, Slagelse Hospital, Herlev Hospital, Bispebjerg and Frederiksberg Hospital, and Amager and Hvidovre Hospital\n\n\nStudy Period\n01.XX.202X - 01.XX.202X\n\n\nPrimary Endpoint\nProportion undergoing neurosurgery\n\n\nSecondary Endpoints\nMortality, survival without readmission, proportion receiving CT of the brain, economic consequences, and related measures.\n\n\n\n\n\n\n\n\n\n\n\nRoles and Responsibilities\n\n\n\n\n\n\nPrincipal Investigator\nRozh Al-Mashhadi\nOverall study oversight, data quality\n\n\nSite Coordinator\n\nDaily workflow management, staff training\n\n\nData Collector\nJulie Bjørn Bay\nData extraction from registers\n\n\nClinician\n\nPatient screening, guideline adherence\n\n\nStatistician\n\nData analysis plan\n\n\n\n\n\n\n\n\nStudy Workflow\nStep 1 – Patient Screening\n\nIdentify adult patients presenting with mild head trauma (GCS 14–15)\nApply inclusion/exclusion criteria\nHand eligible patients Patient Information\n\nStep 2 – Guideline Assignment\n\nCheck which guideline is active at your site based on stepped-wedge schedule\nUse flowchart to decide whether a CT scan is indicated\n\nStep 3 – Data Collection\n\nIf patient is eligible assign the diagnosis code DS098C - Let hovedtraume (GCS 14-15)\nIf patient is not eligible use another diagnosis code\nIf patient want to opt out of data analysis, the patient should register this in REDCap or send us an email (see patient information)"
+    "text": "Julie Bjørn Bay\nMedical Doctor, PhD student\njulbay@rm.dk\nHEADWISE@clin.au.dk"
   },
   {
     "objectID": "index.html",
@@ -60,7 +53,7 @@
     "href": "trialprocedures.html",
     "title": "Trial Procedures",
     "section": "",
-    "text": "Local Visits\nThe Organizing Committee will visit the 10 participating departments ahead of trial start to inform thoroughly about the study. Posters and flyers will be distributed. The Organizing Committee will also visit the departments several times during the trial period, including at the time of transition.\n\n\n\n\n\n\n\n\n\nDepartment\nInitial visit\nSecond visit\n\n\n\n\n\nAalborg\nxx.xx.2026\n\n\n\n\nAarhus\n\n\n\n\n\nEsbjerg\n\n\n\n\nKolding\n\n\n\n\nAabenraa\n\n\n\n\nOdense\n\n\n\n\nSlagelse\n\n\n\n\n\n\n\n\nTransition Scheme\nBelow the scheme for transition from the Scandinavian guidelines (control) to the Choosing Wisely recommendation (intervention) can be seen.\nTo be updated when randomization has taken place.\n\n\n\n\nWorkflow\nThe clinicians workflow can be seen in the following flowchart."
+    "text": "Local Visits\nThe Organizing Committee will visit the 10 participating departments ahead of trial start to inform thoroughly about the study. Posters and flyers will be distributed. The Organizing Committee will also visit the departments several times during the trial period, including at the time of transition.\n\n\n\nDepartment\nInitial visit\nSecond visit\n\n\n\n\n\nAalborg\nxx.xx.2026\n\n\n\n\nAarhus\n\n\n\n\n\nEsbjerg\n\n\n\n\n\nKolding\n\n\n\n\n\nAabenraa\n\n\n\n\n\nOdense\n\n\n\n\n\nSlagelse\n\n\n\n\n\n\n\n\n\nTransition Scheme\nBelow the scheme for transition from the Scandinavian guidelines (control) to the Choosing Wisely recommendation (intervention) can be seen.\nTo be updated when randomization has taken place.\n\n\n\n\nWorkflow\nThe clinicians workflow can be seen in the following flowchart."
   },
   {
     "objectID": "scandinavian.html",
