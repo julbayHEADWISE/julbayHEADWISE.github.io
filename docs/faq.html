@@ -169,9 +169,9 @@ ul.task-list li input[type="checkbox"] {
 <p><br></p>
 <p><strong>What if we cannot measure S100B?</strong></p>
 <p>All participating emergency departments can, as a general rule, measure S100B. If S100B is temporarily unavailable or more than 6 hours have passed since the injury, a CT scan should be performed (and the patient discharged if normal). Observation is only required if the CT scan is abnormal.</p>
-<p><br></p>
-<p><strong>Do you have a question?</strong></p>
-<p>You are very welcome to submit your question at the bottom of the page. We respond on an ongoing basis, and relevant questions will be included in the FAQ.</p>
+<p><br> <br></p>
+<p><strong>DO YOU HAVE A QUESTION?</strong></p>
+<p>Please forward it to <a href="mailto:headwise@clin.au.dk">HEADWISE@clin.au.dk</a>. We respond as soon as possible, and relevant questions will be included in the FAQ.</p>
 
 
 
@@ -576,35 +576,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<input type="hidden" id="giscus-base-theme" value="light">
-<input type="hidden" id="giscus-alt-theme" value="dark">
-<script>
-  function loadGiscus() {
-    // Function to get the theme based on body class
-    const getTheme = () => {
-      let baseTheme = document.getElementById('giscus-base-theme').value;
-      let altTheme = document.getElementById('giscus-alt-theme').value;
-      return document.body.classList.contains('quarto-dark') ? altTheme : baseTheme;
-    };
-    const script = document.createElement("script");
-    script.src = "https://giscus.app/client.js";
-    script.async = true;
-    script.dataset.repo = "julbayHEADWISE/julbayHEADWISE.github.io";
-    script.dataset.repoId = "R_kgDORXgCeg";
-    script.dataset.category = "FAQ";
-    script.dataset.categoryId = "DIC_kwDORXgCes4C5U6Y";
-    script.dataset.mapping = "pathname";
-    script.dataset.reactionsEnabled = "1";
-    script.dataset.emitMetadata = "0";
-    script.dataset.inputPosition = "bottom";
-    script.dataset.theme = getTheme();
-    script.dataset.lang = "en";
-    script.crossOrigin = "anonymous";
-    // Append the script to the desired div instead of at the end of the body
-    document.getElementById("quarto-content").appendChild(script);
-  }
-  loadGiscus();
-</script>
 </div> <!-- /content -->
 
 

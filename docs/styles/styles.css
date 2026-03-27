@@ -37,7 +37,7 @@ h1, h2, h3, h4 {
   display: grid;
   grid-template-columns: repeat(5, grid-auto-columns); /* 5 fixed-width columns */
   gap: 10px; /* spacing between images */
-  justify-content: left; /* center the whole grid */
+  justify-content: left;
 }
 
 /* Images: square and uniform */
